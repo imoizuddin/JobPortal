@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using DatabaseAccessLayer;
+using BusinessAccessLayer;
+using JobPortal.Models;
 
 namespace JobPortal.Controllers
 {
@@ -26,5 +29,7 @@ namespace JobPortal.Controllers
 
             return View();
         }
+
+
     }
 }
